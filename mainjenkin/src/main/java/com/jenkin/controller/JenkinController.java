@@ -18,4 +18,11 @@ public class JenkinController {
 
 	}
 
+	
+	@GetMapping("/jenkinn")
+	public String jenkinn() {
+
+		return "Jenkinn-Published-Jenkinn";
+
+	}
 }
