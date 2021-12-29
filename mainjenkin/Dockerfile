@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk
 ARG JAR_FILE=target/mainjenkin.jar
 COPY ${JAR_FILE} mainjenkin.jar
 EXPOSE 9999
