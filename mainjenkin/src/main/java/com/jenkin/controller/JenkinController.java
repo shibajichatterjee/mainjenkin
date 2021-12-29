@@ -1,7 +1,6 @@
 package com.jenkin.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinController {
@@ -10,6 +9,12 @@ public class JenkinController {
 	public String firstJenkin() {
 
 		return "firstJenkin-Published";
+
+	}
+	@GetMapping("/jenkin")
+	public String jenkin() {
+
+		return "Jenkin-Published";
 
 	}
 
