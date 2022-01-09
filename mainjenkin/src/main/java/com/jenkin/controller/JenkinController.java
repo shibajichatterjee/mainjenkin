@@ -25,4 +25,11 @@ public class JenkinController {
 		return "Jenkinn-Published-Jenkinn";
 
 	}
+	
+	@GetMapping("/latest")
+	public String latest() {
+
+		return "Jenkinn-Published-latest";
+
+	}
 }
