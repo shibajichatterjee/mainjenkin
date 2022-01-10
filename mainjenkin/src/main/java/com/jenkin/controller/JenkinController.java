@@ -32,4 +32,11 @@ public class JenkinController {
 		return "Jenkinn-Published-latest";
 
 	}
+	
+	@GetMapping("/latest1")
+	public String latest1() {
+
+		return "Jenkinn-Published-latest1";
+
+	}
 }
