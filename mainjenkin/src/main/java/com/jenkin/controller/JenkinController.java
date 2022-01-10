@@ -36,7 +36,7 @@ public class JenkinController {
 	@GetMapping("/latest1")
 	public String latest1() {
 
-		return "Jenkinn-Published-latest1";
+		return "Jenkinn-Published-latest1";//lllkk
 
 	}
 }
